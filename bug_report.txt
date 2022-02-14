@@ -1,8 +1,17 @@
+Summary	
+Descriprion		
+PHP error appears in window after input SQL request in lield of login	"If enter SQL request in lield of login and press [Поехали] button PHP error appears in 
+Actual result: Warning: mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\OpenServer\domains\megatask\index.php on line 15
+Expected result:  Window with text Error appears
+Requirement ID:
+Reproduced on: Chrome
+Reproducibility: always
+Workaround: no
+Steps to reproduce
+1. Open page via URL http://megatask/ 
+2. Enter  DB request (SELECT * FROM users WHERE u_ul LIKE ‘a%’) in field ""Логин""
+3. Enter  correct password (b) in field ""Пароль""
+4. Press [Поехали] button"	
+Severity minor
+Priority	
 
-Ситуация	Summary (RUS)	Summary (ENG)
-Крах клиентской части приложения приводит к необратимой потере сессии с сервером и потере всех несохранённых данных (сессия при повторном соединении не возобновляется, а начинается заново).	Необратимая потеря сессии и всех несохранённых данных при крахе клиента.	Irreversible session loss and all unsaved data loss on client crash.
-Приложение валится с ошибкой обращения к памяти при открытии пятого файла (четыре уже открыты).	Ошибка доступа к памяти при открытии пятого активного файла.	Memory access failure on 5th active file opening.
-Когда пользователь отправляет анкету, размер которой превышает допустимый, анкета загружается 5 секунд, а затем появляется сообщение «Извините! Письмо для HR не было отправлено! Пожалуйста, повторите попытку позже!» вместо сообщения «Размер анкеты не должен превышать 5Mb».	Неверное сообщение об ошибке при отправке слишком большой анкеты.	Wrong error message on sending too big application form.
-В профиле пользователя можно указать дату рождения, находящуюся в будущем по отношению к текущей дате.	Приложение принимает даты рождения из будущего.	Application accepts dates of birth from the future.
-После истечения сессии по таймауту для повторной авторизации пользователю приходится вручную чистить куки в браузере.	Неверная обработка куки при завершении сессии по таймауту.	Wrong cookies handling on session timeout.
-.
