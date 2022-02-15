@@ -1,3 +1,3 @@
-On Vadim's Ksendzov course I want to lern a lot of new information, e.g. about Jmeter GitBash script, terminal line, Postman, Charlie, SQL, Xcode. 
+On Vadim's Ksendzov course I will study a lot of new information, e.g. about Jmeter GitBash script, terminal line, Postman, Fidler, Charlie, SQL, Xcode, VPN, Dev Tools Google Chrome and Firefox, peculiarities of Android and iOS, simple bush cript, automation of routibe tasks on the server, Python and access to remote servers.   
 
 
